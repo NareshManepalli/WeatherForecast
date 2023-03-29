@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Irish+Grover&family=Marhey:wght@300;600&family=Poppins:wght@300;500;800&family=Racing+Sans+One&family=Righteous&family=Rock+Salt&display=swap');
+
+.wrapper{background: url('./assests/bg-pic.jpg') no-repeat   center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  /* padding-top: 20px; */
+}
+
+.maindata .Icon{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-bottom: 10px;
+  animation: myfirst 4s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0%   {left:0px; top:0px;}
+  50%  {left:20px; top:0px;}
+  100%  {left:0px; top:0px;}
+}
+
+.maindata h2{
+  color: goldenrod;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+}
+
+.maindata h2 i{
+  color: red;
+}
+
+.maindata p, .maindata hr{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.maindata h4 {
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.maindata h1{
+  color: white;
+  font-family: 'Righteous';
+  font-size: 55px;
+  padding-bottom: 25px;
+}
+
+.maindata .info {
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+
+.maindata .info p {
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.WrongData {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.RefreshButton button{
+  color: white;
+  font-size: large;
+  background-color: dodgerblue;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .card img{
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .heading{
+    padding: 20px;
+  }
+  .card {
+    margin-bottom: 130px;
+  }
+}
